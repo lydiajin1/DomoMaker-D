@@ -50,7 +50,7 @@ nav:nth-child(1) {
 .domoForm {
     border: 2px solid #338acc;
     height: 35px;
-    width: 700px;
+    width: 900px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
@@ -69,6 +69,12 @@ nav:nth-child(1) {
 
 .domoForm input[type=text] {
     float:left;
+    width: 180px;
+}
+
+.domoForm input[type=number] {
+    float:left;
+    width: 120px;
 }
 
 .makeDomoSubmit {
@@ -241,9 +247,9 @@ h3.emptyDomo {
 
 h3.domoName {
     float:left;
-    width: 200px;
+    width: 250px;
     font-weight: bold;
-    padding-left: 65px;
+    padding-left: 10px;
     font-size: 1.5em;
 }
 
@@ -254,6 +260,32 @@ h3.domoAge {
     font-weight: bold;
     padding-right: 40px;
     font-size: 1.5em;
+}
+
+h3.domoLevel {
+    float:right;
+    text-align: left;
+    width: 100px;
+    font-weight: bold;
+    padding-right: 40px;
+    font-size: 1.5em;
+}
+
+.deleteDomoButton {
+    float: left;
+    clear: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.deleteDomoButton:hover {
+    background-color: #cc0000;
 }
 
 .domo:first-child {
